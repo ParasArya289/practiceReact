@@ -5,7 +5,7 @@ import { useState } from "react";
 let ErrorHandling = () => {
   let [message, setMessage] = useState("");
 
-  let url = `https://api.funtranslations.com/translate/piratee.json`;
+  let url = `https://api.funtranslations.com/translate/pirate.json`;
   let formatFetchUrl = (text) => {
     let formatedUrl = url + "?text=" + text;
     return formatedUrl;

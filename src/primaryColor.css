@@ -1,0 +1,20 @@
+:root{
+    --primary-color:red;
+    --secondary-color:blue;
+  }
+  
+  .primary-h1{
+    color:var(--primary-color);
+  }
+  
+  .secondary-h1{
+    color:var(--secondary-color);
+  }
+  
+  .primary-btn{
+    color:var(--primary-color);
+  }
+  
+  .secondary-btn{
+    color:var(--secondary-color);
+  }

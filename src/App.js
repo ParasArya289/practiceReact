@@ -1,5 +1,6 @@
 import ApiCall from "./apiCall";
 import "./App.css";
+import ChangeHeadingType from "./changeHeading";
 import ErrorHandling from "./errorHandling";
 import PowerName from "./obj35";
 import Age from "./objAge";
@@ -14,7 +15,8 @@ function App() {
   // <Age/>
   // <PowerName/>
   // <PrimaryColor/>
-  
+  <ChangeHeadingType/>
+
 }
 
 export default App;

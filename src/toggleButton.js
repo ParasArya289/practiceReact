@@ -1,6 +1,5 @@
 import { useState } from "react";
-import "./flex.css";
-import NeoInput from "./neoInput";
+import "./toggleButton.css";
 let FlexManipulation = () => {
   let [state, setState] = useState(false);
 

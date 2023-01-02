@@ -27,7 +27,6 @@ let FlexManipulation = () => {
         </div>
       </div>
       <hr/>
-      <NeoInput state={state}/>
     </>
   );
 };

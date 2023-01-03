@@ -2,6 +2,7 @@ import ApiCall from "./apiCall";
 import "./App.css";
 import ChangeHeadingType from "./changeHeading";
 import ErrorHandling from "./errorHandling";
+import ChangeFontSize from "./fontSIze";
 import PowerName from "./obj35";
 import Age from "./objAge";
 import Portfolio from "./portfolio";
@@ -15,7 +16,8 @@ function App() {
   // <Age/>
   // <PowerName/>
   // <PrimaryColor/>
-  <ChangeHeadingType/>
+  // <ChangeHeadingType/>
+  <ChangeFontSize/>
 
 }
 

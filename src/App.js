@@ -17,7 +17,7 @@ function App() {
   // <PowerName/>
   // <PrimaryColor/>
   // <ChangeHeadingType/>
-  <ChangeFontSize/>
+  // <ChangeFontSize/>
 
 }
 

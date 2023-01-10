@@ -28,7 +28,7 @@ let ValidateInput = () => {
       />
       <button disabled={disableTweet}>Tweet</button>
       <h6>{validateMessage}</h6>
-      {/* <h3>{message}</h3> */}
+      <h3>{message}</h3>
     </>
   );
 };

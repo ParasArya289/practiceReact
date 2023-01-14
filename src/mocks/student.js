@@ -31,13 +31,18 @@ let Students = () => {
     setAvg(`${avg} is class avg`);
   };
   let checkForTopper = () => {
-    data.sort((a, b) => {
+    if(data.length>0){
+      data.sort((a, b) => {
       return b.marks - a.marks;
     });
-    let name = data[0].name;
-    let marks = data[0].marks;
+    let name = data[0]?.name;
+    let marks = data[0]?.marks;
     setTopper(`${name} is Topper of this year with marks ${marks}`);
     calcAvg();
+    }else{
+      alert('No data to check')
+    }
+    
   };
   return (
     <div>

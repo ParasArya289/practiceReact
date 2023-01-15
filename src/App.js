@@ -18,7 +18,7 @@ function App() {
   // <PrimaryColor/>
   // <ChangeHeadingType/>
   // <ChangeFontSize/>
-  // <ChangeFontSize/>
+  <ChangeFontSize/>
 
 }
 

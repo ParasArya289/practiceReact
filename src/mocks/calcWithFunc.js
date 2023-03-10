@@ -14,5 +14,5 @@ const minus = (a) =>`-${a}`;
 const dividedBy = (a) => `/${a}`;
 const times = (a) => `*${a}`;
 
-console.log(eval(seven(times(seven()))));
+console.log(seven(times(seven())));
 // 7*7 = 49

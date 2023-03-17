@@ -1,4 +1,4 @@
-//Linked list implementation
+//Queue implementation with Linked list
 function Queue() {
   this.head = null;
   this.tail = null;

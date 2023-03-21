@@ -145,27 +145,27 @@ let Trial = () => {
   // let [search, setSearch] = useState("");
   let [arr, setArr] = useState(symptomsArr);
 
-  const fillArrWithOption = () => {
-    // let s = {
-    //   key1:0,
-    //   key2:1,
-    //   key3:2,
-    //   key4:3,
-    //   key5:4,
-    // }
-    symptomsArr.forEach((el, i) => {
-      let s = {
-        key1: 0 + i,
-        key2: 1 + i,
-        key3: 2 + i,
-        key4: 3 + i,
-        key5: 4 + i
-      };
-      symptomsArr.push(s);
-    });
-    console.log("fill", symptomsArr);
-  };
-  fillArrWithOption();
+  // const fillArrWithOption = () => {
+  //   // let s = {
+  //   //   key1:0,
+  //   //   key2:1,
+  //   //   key3:2,
+  //   //   key4:3,
+  //   //   key5:4,
+  //   // }
+  //   symptomsArr.forEach((el, i) => {
+  //     let s = {
+  //       key1: 0 + i,
+  //       key2: 1 + i,
+  //       key3: 2 + i,
+  //       key4: 3 + i,
+  //       key5: 4 + i
+  //     };
+  //     symptomsArr.push(s);
+  //   });
+  //   console.log("fill", symptomsArr);
+  // };
+  // fillArrWithOption();
 
   let filter = (value) => {
     if (value === "acc") {

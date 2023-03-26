@@ -38,17 +38,53 @@ const dfsRecursive = function (root) {
 
 // console.log(dfs(a))
 
-const bfs = function(root) {
-    if (root === null) return [];
-    const res = [];
-    const queue = [root];
-    while (queue.length > 0) {
-      const curr = queue.shift();
-  
-      res.push(curr.root);
-      if (curr.left !== null) queue.push(curr.left);
-      if (curr.right !== null) queue.push(curr.right);
-    }
-    return res;
+const bfs = function (root) {
+  if (root === null) return [];
+  const res = [];
+  const queue = [root];
+  while (queue.length > 0) {
+    const curr = queue.shift();
+
+    res.push(curr.root);
+    if (curr.left !== null) queue.push(curr.left);
+    if (curr.right !== null) queue.push(curr.right);
   }
-  
+  return res;
+};
+
+const serpentineTree = function (root) {
+  if (root === null) return [];
+
+  const res = [];
+  let level = 1;
+  const queue = [root];
+
+  while (queue.length > 0) {
+    const levelNodes = [];
+    let levelSize = queue.length;
+
+    for (let i = 0; i < levelSize; i++) {
+      const curr = queue.shift();
+      // console.log(curr.root)
+      levelNodes.push(curr.root);
+
+      if (curr.left != null) {
+        queue.push(curr.left);
+      }
+
+      if (curr.right != null) {
+        queue.push(curr.right);
+      }
+    }
+
+    if (level % 2 === 0) {
+      levelNodes.reverse();
+    }
+
+    res.push(...levelNodes);
+    level++;
+  }
+  console.log(level);
+  return res;
+};
+// console.log(serpentineTree(a));

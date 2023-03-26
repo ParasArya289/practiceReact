@@ -37,3 +37,18 @@ const dfsRecursive = function (root) {
 };
 
 // console.log(dfs(a))
+
+const bfs = function(root) {
+    if (root === null) return [];
+    const res = [];
+    const queue = [root];
+    while (queue.length > 0) {
+      const curr = queue.shift();
+  
+      res.push(curr.root);
+      if (curr.left !== null) queue.push(curr.left);
+      if (curr.right !== null) queue.push(curr.right);
+    }
+    return res;
+  }
+  

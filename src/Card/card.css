@@ -1,0 +1,48 @@
+body {
+    width: 100vw;
+    height: 100vh;
+  }
+  .card-container {
+    width: 250px;
+    margin: auto;
+    text-align: left;
+    /* background-color: white; */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+  }
+  .info-container {
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+    padding: 12px;
+  }
+  .hero-img {
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
+  }
+  .hero-name {
+    color: #334155;
+    font-size: large;
+  }
+  .hero-sub {
+    color: grey;
+    display: block;
+    padding-top: 6px;
+    font-weight: 100;
+    font-size: small;
+  }
+  .hero-info {
+    color: white;
+    padding: 2px;
+  }
+  .btn {
+    border: none;
+    background-color: transparent;
+    color: #a5f3fc;
+    padding: 12px;
+  }
+  

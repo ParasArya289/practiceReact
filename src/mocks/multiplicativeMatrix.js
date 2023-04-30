@@ -7,6 +7,7 @@ const multiplicationTable = function (size) {
   //     }
   //     table.push(temp)
   //   }
+  
   //   return table;
   return new Array(size)
     .fill(0)

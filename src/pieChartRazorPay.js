@@ -7,7 +7,7 @@ let PieChart = () =>{
   // console.log(value);
   return (
     <>
-    <input type="range" onChange={e=>setValue(e.target.value)}/>
+    <input type="range" value={value} onChange={e=>setValue(e.target.value)}/>
     <div style={{
       width:'200px',
       height:'200px',

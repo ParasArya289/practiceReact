@@ -4,7 +4,6 @@ import { useState } from "react";
 
 let PieChart = () =>{
   let [value,setValue] = useState(0);
-  // console.log(value);
   return (
     <>
     <input type="range" value={value} onChange={e=>setValue(e.target.value)}/>

@@ -18,4 +18,3 @@ let PieChart = () =>{
     </>
   )
 }
-export default PieChart;

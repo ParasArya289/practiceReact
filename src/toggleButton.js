@@ -10,7 +10,7 @@ let FlexManipulation = () => {
       setState(false);
     }
   };
-  // style={{ backgroundColor: `${state ? "#dc2626" : "#86efac"}` }}
+
   return (
     <>
       <div

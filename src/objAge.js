@@ -13,8 +13,7 @@ let obj1 = {
   let Age = () => {
     let calAge = (a, b) => {
       let { name: name1, age: age1 } = a;
-      let { name: name2, age: age2 } = b;
-      // console.log(name1,name2,age2,age1);
+      let { name: name2, age: age2 } = b;ß
       if (age1 > age2) {
         console.log(`${name1} is older then ${name2}`);
       } else if (age1 < age2) {

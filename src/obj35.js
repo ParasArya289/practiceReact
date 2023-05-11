@@ -35,7 +35,6 @@ let PowerName = () => {
       setLose("");
     }
   };
-  // calPower(obj1, obj2);
   return (
     <>
       <h1>{win}</h1>

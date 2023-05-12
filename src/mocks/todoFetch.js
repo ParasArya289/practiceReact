@@ -32,7 +32,7 @@ let TodoFetch = () => {
   return (
     <>
       <button onClick={fetchApi}>Fetch</button>
-      {/* {loading && } */}
+
       {show || loading ? (
         loading && <h1>Loading...</h1>
       ) : (

@@ -25,29 +25,6 @@ let PersonDescription = () => {
   let [input, setInput] = useState("");
   let [output, setOutput] = useState("");
   let [nameAndDescriptiption, setNameAndDescription] = useState("");
-  // let [data,setData] = useState(
-  //   [
-  //     {
-  //       name: "Tanvi",
-  //       description: "She is the best CEO ever!"
-  //     },
-  //     {
-  //       name: "Tanay",
-  //       description: "He is our FUNNY mentor!"
-  //     },
-  //     {
-  //       name: "Swapnil",
-  //       description: "He helps us CONQUER jobs!"
-  //     },
-  //     {
-  //       name: "Akansha",
-  //       description: "She is our CHEERFUL Interviewer!"
-  //     }
-  //   ]
-  // )
-  //
-  // console.log("down", data);
-  // console.log(nameAndDescriptiption);
 
   let descriptionHandler = () => {
     setOutput("");
